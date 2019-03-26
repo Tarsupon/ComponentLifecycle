@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid red;
+  height: 50vh;
+  width: 30vw;
+  color: red;
+}
+.total{
+  border: 3px solid red;
+  height: 8vh;
+  width: 6vw;
+}
+input{
+  border: 3px solid green;
+  width: 50%;
+}

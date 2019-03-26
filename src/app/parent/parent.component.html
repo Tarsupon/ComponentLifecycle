@@ -1,0 +1,8 @@
+<div class="container">
+  <input (input) = "nameChange($event.target.value)">
+  <app-child [childName]="name" (change)="countChange($event)" style="color: blue" [loggerStyle]="'color: blue'"></app-child>
+  <app-child [childName]="name" (change)="countChange($event)" style="color: purple" [loggerStyle]="'color: purple'"></app-child>
+  <app-child [childName]="name" (change)="countChange($event)" style="color: cyan" [loggerStyle]="'color: cyan'"></app-child>
+  <div class="total">Total = {{totalCount}}</div>
+</div>
+
